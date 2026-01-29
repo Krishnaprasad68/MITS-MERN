@@ -37,6 +37,7 @@ const App = () => {
           <Route path='useeffectapi' element={<UseEffectApi />} />
           <Route path='useref' element={<UseRef />} />
           <Route path='usereducer' element={<UseReducer />} />
+          <Route path='usememo' element={<UseMemo />} />
         </Route>
       </Routes>
     </div>
